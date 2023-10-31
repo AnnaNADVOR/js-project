@@ -1,0 +1,68 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./quote-of-the-day.css');
+@import url('./header.css');
+@import url('./favorite.css');
+@import url('./filter-1.css');
+@import url('./filter-2.css');
+@import url('./filter-modal.css');
+
+@import url('./footer.css');
+@import url('./hero.css');
+@import url('./pagination.css');
+@import url('./scrollbutton.css');
+@import url(./preloader.css);
+@import url(./loader-subscribe.css);
+@import url('./modal-form.css');
+@import url('./catalog.css');
+
+:root {
+  --background-color: #f4f4f4;
+  --backgroud-footer-text-color: #242424;
+  --white-text-color: #f4f4f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: 'NeueMontrealRegular';
+  src: url('../fonts/NeueMontreal-Regular.otf');
+}
+
+@font-face {
+  font-family: 'NeueMontrealitalic';
+  src: url('../fonts/NeueMontreal-Italic.otf');
+}
+
+@font-face {
+  font-family: 'Neue MontrealMedium';
+  src: url('../fonts/NeueMontreal-Medium.otf');
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: 'NeueMontrealRegular';
+}
+
+/* @media screen and (min-width: 1440px) {
+  .quote-sport-container {
+    position: absolute;
+    top: 84%;
+    margin: 0;
+    margin-left: auto;
+  }
+
+  .exercises-info-card {
+    position: relative;
+    margin: 0;
+    margin-right: auto;
+  }
+} */

@@ -1,0 +1,14 @@
+import './js/footer';
+import './js/pagination';
+import './js/scrollbutton';
+import './js/header';
+import './js/filter-2';
+import './js/filter-1';
+import './js/preloader';
+import './js/loader-subscribe';
+import './js/header';
+import './js/menu';
+import './js/modal-exercise';
+import './js/modal-class-box';
+import './js/quote-of-the-day';
+import './js/footer';
